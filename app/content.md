@@ -1,7 +1,9 @@
 
-# impress.md.js    <!-- class: "slide", id: "title" -->
+# dartsduino    <!-- class: "slide", id: "title" -->
 
-This is a test.
+<p class="large">
+  寺戸 育夫
+</p>
 
 
 ## Page 2    <!-- class: "slide" -->
