@@ -1,6 +1,9 @@
 
 $font-large: 40px;
 
+$slide-width: 900px;
+$slide-height: 700px;
+
 
 h1 {
     font-size: 100px;
@@ -9,4 +12,23 @@ h1 {
 
 .large {
     font-size: $font-large;
+}
+
+.note {
+    font-size: 28px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.fill-slide {
+    width: $slide-width;
+    height: $slide-height;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title-center {
+    text-align: center;
 }
