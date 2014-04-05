@@ -19,22 +19,31 @@
 ## 背景    <!-- group: "zoom-test", class: "slide zoom-overview", dx: 0 -->
 
 
-### Mozilla Factory    <!-- group: "zoom-test zoom-test-child", class: "slide zoom-item title-center", scale: 0.25, tx:  -280 -->
+### Mozilla Factory    <!-- group: "zoom-test zoom-test-child", class: "slide zoom-item center", scale: 0.25, tx:  -280 -->
 
 ![Mozilla Factory   <!-- class: "fill-slide" -->](images/mozilla-factory.jpg)
 
 
-### Mecha-Mozilla   <!-- group: "zoom-test zoom-test-child", class: "slide zoom-item title-center", scale: 0.25 -->
+### Mecha-Mozilla   <!-- group: "zoom-test zoom-test-child", class: "slide zoom-item center", scale: 0.25 -->
 
 ![Mecha Mozilla   <!-- class: "fill-slide" -->](images/mecha-mozilla.png)
 
 
-### gitFAB    <!-- group: "zoom-test zoom-test-child", class: "slide zoom-item title-center", scale: 0.25, tx: 280 -->
+### gitFAB    <!-- group: "zoom-test zoom-test-child", class: "slide zoom-item center", scale: 0.25, tx: 280 -->
 
 ![gitFAB   <!-- class: "fill-slide" -->](images/gitfab.png)
 
 
 ##     <!-- group: "zoom-test", class: "zoom-overview", dx: 1500 -->
+
+
+## dartsduino    <!-- class: "slide" -->
+
+<div class="center">
+  <_iframe class="center" width="720" height="500" frameborder="0"
+    src="http://www.youtube.com/embed/sHt_5in-ziQ">
+  <_/iframe>
+</div>
 
 
 ## 3D Layers Test    <!-- class: "slide layers-3d", dx: 0 -->
