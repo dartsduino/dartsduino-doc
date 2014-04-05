@@ -1,9 +1,6 @@
 
 $font-large: 40px;
 
-$slide-width: 900px;
-$slide-height: 700px;
-
 
 h1 {
     font-size: 100px;
@@ -21,8 +18,8 @@ h1 {
 }
 
 .fill-slide {
-    width: $slide-width;
-    height: $slide-height;
+    width: 100%;
+    height: 100%;
 
     position: absolute;
     top: 0;
