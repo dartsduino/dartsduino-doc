@@ -46,9 +46,21 @@
 </div>
 
 
-## 全体構成    <!-- class: "slide" -->
+## 全体構成    <!-- class: "slide overview-item", dx: 0 -->
 
-![Ovewview   <!-- class: "fill-slide" -->](images/overview.svg)
+![Overview   <!-- class: "fill-slide" -->](images/overview.svg)
+
+
+##    <!-- group: "overview", tx: -240, ty: 120, scale: 0.4 -->
+
+
+##    <!-- group: "overview", tx: 240, ty: 120, scale: 0.4 -->
+
+
+##    <!-- group: "overview", tx: 10, ty: -120, scale: 0.4 -->
+
+
+##    <!-- group: "overview", dx: 1500 -->
 
 
 ## 3D Layers Test    <!-- class: "slide layers-3d", dx: 0 -->
