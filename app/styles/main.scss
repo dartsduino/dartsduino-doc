@@ -5,6 +5,10 @@ body {
     background: #fafafa;
 }
 
+img {
+    backface-visibility: hidden;
+}
+
 .layers {
     position: relative;
     width: 560px;
@@ -85,20 +89,21 @@ body {
 
 
 $layer-x: 480px;
+$layer-y: -135px;
 $layer-z: 350px;
 $layer-z-margin: 80px;
 $layer-rotate-x: 70deg;
 $layer-rotate-y: 45deg;
 
 .layer {
-    transform: rotateY($layer-rotate-y) rotateX($layer-rotate-x) translateZ($layer-z);
+    transform: rotateY($layer-rotate-y) rotateX($layer-rotate-x) translateZ($layer-z) translateY($layer-y);
     transition: transform 1s ease;
 }
 
 .present {
     @for $i from 1 through 3 {
         #layer#{$i} {
-            transform: rotateY($layer-rotate-y) rotateX($layer-rotate-x) translateZ($layer-z-margin * $i + $layer-z);
+            transform: rotateY($layer-rotate-y) rotateX($layer-rotate-x) translateZ($layer-z-margin * $i + $layer-z) translateY($layer-y);
             transition-delay: 0.8s;
         }
     }
@@ -108,8 +113,20 @@ $layer-rotate-y: 45deg;
     @for $i from 1 through 3 {
         #layer#{$i} {
             opacity: 1;
-            transform: rotateY($layer-rotate-y) rotateX($layer-rotate-x) translateX(($i - 2) * $layer-x) translateZ($layer-z);
+            transform: rotateY($layer-rotate-y) rotateX($layer-rotate-x) translateX(($i - 2) * $layer-x) translateZ($layer-z) translateY($layer-y);
         }
+    }
+}
+
+.impress-group-board {
+    .layer {
+        opacity: 0;
+    }
+}
+
+.impress-on-layers-detail {
+    .board {
+        opacity: 0;
     }
 }
 
@@ -123,4 +140,24 @@ $layer-rotate-y: 45deg;
     .overview-item {
         opacity: 1;
     }
+}
+
+.impress-group-hw {
+    #board-front {
+        transform: rotateY(180deg);
+    }
+
+    #board-back {
+        transform: rotateY(0deg);
+    }
+}
+
+#board-front {
+    transform: rotateY(0deg);
+    transition: transform 1s ease;
+}
+
+#board-back {
+    transform: rotateY(-180deg);
+    transition: transform 1s ease;
 }
