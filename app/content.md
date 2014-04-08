@@ -124,19 +124,3 @@
 * 効果音 (dartsduino, dartsduino-ui)
 * Sketch (dartsduino-skecth)
 * 回路 (dartsduino-hw)
--->](images/dartsduino-hw.png)
-
-
-## スケッチ    <!-- class: "slide" -->
-
-![sketch  <!-- id: "sketch", width: 540 -->](images/dartsduino-pseudo.png)
-
-
-## Contributor 求む!    <!-- class: "slide" -->
-
-* core のアーキテクチャ (dartsduino)
-* UI のデザイン (dartsduino-ui)
-* ゲーム gem (dartsduino-games-xxx)
-* 効果音 (dartsduino, dartsduino-ui)
-* Sketch (dartsduino-skecth)
-* 回路 (dartsduino-hw)
