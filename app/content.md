@@ -63,26 +63,23 @@
 ##    <!-- group: "overview", dx: 1500 -->
 
 
-##     <!-- class: "center", dx: 0 -->
+##     <!-- group: "board", class: "board center", dx: 0 -->
 
 ![Board Front   <!-- id: "board-front", width: 560 -->](images/board-front.jpg)
 
 
-##     <!-- group: "hw", class: "center" -->
+##     <!-- group: "hw board", class: "board center" -->
 
 ![Board Back    <!-- id: "board-back", width: 560 -->](images/board-back.jpg)
 
 
-##    <!-- group: "hw", dx: 1500 -->
-
-## 3D Layers Test    <!-- class: "slide layers-3d", dx: 0 -->
-
-##     <!-- group: "layers-test", class: "layers-3d", z: 100, rotate-x: -70, rotate-y: -45 -->
+##     <!-- group: "hw layers-test", class: "layers-3d", z: 100, rotate-x: -70, rotate-y: -45 -->
 
 <div class="layers">
-  ![Layer 1   <!-- class: "layer", id: "layer1", width: 560 -->](images/layer1.svg)
-  ![Layer 2   <!-- class: "layer", id: "layer2", width: 560 -->](images/layer2.svg)
-  ![Layer 3   <!-- class: "layer", id: "layer3", width: 560 -->](images/layer3.svg)
+  ![Layer 1   <!-- class: "layer", id: "layer1", width: 560 -->](images/sheetBottom.svg)
+  ![Layer 2   <!-- class: "layer", id: "layer2", width: 560 -->](images/sheetMiddle.svg)
+  ![Layer 3   <!-- class: "layer", id: "layer3", width: 560 -->](images/sheetBottom.svg)
 </div>
 
-##     <!-- group: "layers-test", id: "layers-detail" -->
+
+##     <!-- group: "hw layers-test", id: "layers-detail", dx: 1500 -->
