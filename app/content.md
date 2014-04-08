@@ -63,6 +63,18 @@
 ##    <!-- group: "overview", dx: 1500 -->
 
 
+##     <!-- class: "center", dx: 0 -->
+
+![Board Front   <!-- id: "board-front", width: 560 -->](images/board-front.jpg)
+
+
+##     <!-- group: "hw", class: "center" -->
+
+![Board Back    <!-- id: "board-back", width: 560 -->](images/board-back.jpg)
+
+
+##    <!-- group: "hw", dx: 1500 -->
+
 ## 3D Layers Test    <!-- class: "slide layers-3d", dx: 0 -->
 
 ##     <!-- group: "layers-test", class: "layers-3d", z: 100, rotate-x: -70, rotate-y: -45 -->

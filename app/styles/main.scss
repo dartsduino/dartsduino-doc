@@ -5,6 +5,10 @@ body {
     background: #fafafa;
 }
 
+img {
+    backface-visibility: hidden;
+}
+
 .layers {
     position: relative;
     width: 560px;
@@ -123,4 +127,24 @@ $layer-rotate-y: 45deg;
     .overview-item {
         opacity: 1;
     }
+}
+
+.impress-group-hw {
+    #board-front {
+        transform: rotateY(180deg);
+    }
+
+    #board-back {
+        transform: rotateY(0deg);
+    }
+}
+
+#board-front {
+    transform: rotateY(0deg);
+    transition: transform 1s ease;
+}
+
+#board-back {
+    transform: rotateY(-180deg);
+    transition: transform 1s ease;
 }
