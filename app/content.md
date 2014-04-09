@@ -124,3 +124,6 @@
 * 効果音 (dartsduino, dartsduino-ui)
 * Sketch (dartsduino-skecth)
 * 回路 (dartsduino-hw)
+
+* Sketch (dartsduino-skecth)
+* 回路 (dartsduino-hw)
