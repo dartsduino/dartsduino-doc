@@ -82,4 +82,32 @@
 </div>
 
 
-##     <!-- group: "hw layers-test", id: "layers-detail", dx: 1500 -->
+##     <!-- group: "hw layers-test", id: "layers-detail" -->
+
+
+##     <!-- group: "hw layers-test", id: "sheets-simple", class: "center hidden", dx: 1500 -->
+
+<div class="layers">
+  ![Layer 1   <!-- class="layer", id: "sheetBS", width: 560 -->](images/sheetBottomS.svg)
+  ![Layer 3   <!-- class="layer", id: "sheetTS", width: 560 -->](images/sheetBottomS.svg)
+</div>
+
+
+## 回路    <!-- class: "slide" -->
+
+![circuit  <!-- width: 770 -->](images/dartsduino-hw.png)
+
+
+## スケッチ    <!-- class: "slide" -->
+
+![sketch  <!-- id: "sketch", width: 540 -->](images/dartsduino-pseudo.png)
+
+
+## Contributor 求む!    <!-- class: "slide" -->
+
+* core のアーキテクチャ (dartsduino)
+* UI のデザイン (dartsduino-ui)
+* ゲーム gem (dartsduino-games-xxx)
+* 効果音 (dartsduino, dartsduino-ui)
+* Sketch (dartsduino-skecth)
+* 回路 (dartsduino-hw)
