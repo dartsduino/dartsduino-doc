@@ -96,3 +96,13 @@
 ## 回路    <!-- class: "slide" -->
 
 ![circuit  <!-- width: 770 -->](images/dartsduino-hw.png)
+
+
+## Contributor 求む!    <!-- class: "slide" -->
+
+* core のアーキテクチャ (dartsduino)
+* UI のデザイン (dartsduino-ui)
+* ゲーム gem (dartsduino-games-xxx)
+* 効果音 (dartsduino, dartsduino-ui)
+* Sketch (dartsduino-skecth)
+* 回路 (dartsduino-hw)
