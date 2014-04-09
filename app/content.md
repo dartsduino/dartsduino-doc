@@ -98,6 +98,11 @@
 ![circuit  <!-- width: 770 -->](images/dartsduino-hw.png)
 
 
+## スケッチ    <!-- class: "slide" -->
+
+![sketch  <!-- id: "sketch", width: 540 -->](images/dartsduino-pseudo.png)
+
+
 ## Contributor 求む!    <!-- class: "slide" -->
 
 * core のアーキテクチャ (dartsduino)
