@@ -34,7 +34,20 @@
 ![gitFAB   <!-- class: "fill-slide" -->](images/gitfab.png)
 
 
-##     <!-- group: "zoom-test", class: "zoom-overview", dx: 1500 -->
+##     <!-- group: "zoom-test", class: "zoom-overview" -->
+
+
+## 背景    <!-- id: "points", group: "zoom-test", class: "slide zoom-overview", dx: 1500 -->
+
+<span class="points" id="point1">
+  安価
+</span>
+<span class="points" id="point2">
+  ハードウェア
+</span>
+<span class="points" id="point3">
+  共創
+</span>
 
 
 ## dartsduino    <!-- class: "slide" -->
