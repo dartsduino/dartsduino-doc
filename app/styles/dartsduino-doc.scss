@@ -37,3 +37,29 @@ h1 {
 #sketch {
     margin-left: 110px;
 }
+
+.points {
+    position: absolute;
+    bottom: 150px;
+    opacity: 0;
+    transition: opacity 1s;
+    color: #000;
+}
+
+.impress-on-points {
+    .points {
+        opacity: 1;
+    }
+}
+
+#point1 {
+    left: 140px;
+}
+
+#point2 {
+    left: 365px;
+}
+
+#point3 {
+    left: 700px;
+}
