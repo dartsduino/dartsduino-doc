@@ -1,0 +1,49 @@
+
+@body-bg-color: #fafafa;
+@body-width: 900px;
+@body-height: 700px;
+
+@font: 'Open Sans', Arial, sans-serif;
+@font-size: 30px;
+@font-color: rgb(102, 102, 102);
+
+@slide-bg-color: #ffffff;
+@slide-border-color: rgba(0, 0, 0, .3);
+
+
+body {
+    background: @body-bg-color;
+}
+
+.step {
+    width: @body-width;
+    height: @body-height;
+    padding: 40px;
+
+    font-family: @font;
+    font-size: @font-size;
+    line-height: 36px;
+    letter-spacing: -1px;
+
+    color: @font-color;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    transition: opacity 1s;
+
+    // fade out inactive slides
+    &:not(.active) {
+        opacity: 0.3;
+    }
+}
+
+.slide {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px 60px;
+
+    background-color: @slide-bg-color;
+
+    border: 1px solid @slide-border-color;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}

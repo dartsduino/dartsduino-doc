@@ -1,0 +1,110 @@
+
+@font-large: 40px;
+
+
+h1 {
+    font-size: 100px;
+    margin-top: 200px;
+}
+
+.large {
+    font-size: @font-large;
+}
+
+.note {
+    font-size: 28px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.fill-slide {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#sketch {
+    margin-left: 110px;
+}
+
+.points {
+    position: absolute;
+    bottom: 150px;
+    opacity: 0;
+    transition: opacity 1s;
+    color: #000;
+}
+
+.impress-on-points {
+    .points {
+        opacity: 1;
+    }
+}
+
+#point1 {
+    left: 140px;
+}
+
+#point2 {
+    left: 365px;
+}
+
+#point3 {
+    left: 700px;
+}
+
+.impress-group-board {
+    .layer {
+        opacity: 0;
+    }
+}
+
+.impress-on-layers-detail {
+    .board {
+        opacity: 0;
+    }
+}
+
+.impress-group-layers-test {
+    .layers-3d {
+        opacity: 1;
+    }
+}
+
+.impress-group-overview {
+    .overview-item {
+        opacity: 1;
+    }
+}
+
+.impress-group-hw {
+    #board-front {
+        transform: rotateY(180deg);
+    }
+
+    #board-back {
+        transform: rotateY(0deg);
+    }
+}
+
+#board-front {
+    transform: rotateY(0deg);
+    transition: transform 1s ease;
+}
+
+#board-back {
+    transform: rotateY(-180deg);
+    transition: transform 1s ease;
+}
+
